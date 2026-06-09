@@ -1,0 +1,74 @@
+# XProtection config — copy to:
+#   LabAPI/configs/YOUR_PORT/XProtection/config.yml
+#
+# Windows: %AppData%\SCP Secret Laboratory\LabAPI\configs\PORT\XProtection\
+# Linux:   .config/SCP Secret Laboratory/LabAPI/configs/PORT/XProtection/
+#
+# NOT in the plugins folder. config.yml is auto-created on first start if missing.
+
+debug: false
+owner_steam_ids: []
+server_name: SCP:SL Server
+steam_api_key: ''
+proxycheck_api_key: ''
+vpnapi_key: ''
+ban_hub_api_key: ''
+ban_hub_enabled: false
+discord_webhook_url: ''
+discord_staff_webhook_url: ''
+share_bans_to_ban_hub: false
+min_account_age_days: 30
+max_game_bans: 0
+ip_flag_threshold: 50
+soft_fingerprint_threshold: 70
+fingerprint_threshold: 75
+behavior_similarity_threshold: 0.8
+auto_ban_on_behavior_match: true
+min_behavior_samples: 4
+recheck_enabled: true
+recheck_interval_minutes: 5
+probation_minutes: 15
+linking_window_hours: 24
+steam_recheck_hours: 24
+block_vpn: true
+block_hosting: true
+block_tor: true
+block_datacenter: true
+auto_ban_on_fingerprint_match: true
+auto_ban_on_hard_fingerprint: true
+auto_ban_on_ban_hub: true
+auto_ban_accounts_under7_days: true
+max_connections_per_minute: 5
+temp_block_minutes: 30
+flood_mode_duration_minutes: 10
+asn_blocklist_update_url: ''
+tor_exit_nodes_update_url: https://check.torproject.org/torbulkexitlist
+blocklist_auto_update_interval_hours: 24
+log_all_joins: true
+log_behavioral_data: true
+audit_log_enabled: true
+audit_log_display_count: 15
+audit_log_max_entries: 200
+audit_log_write_file: true
+ra_panel_enabled: true
+ra_panel_players_per_page: 1
+
+lockdown_default_minutes: 30
+lockdown_ban_duration_minutes: 30
+lockdown_notify_players: true
+
+# Per-command permissions. Owner (owner_steam_ids) always has full access.
+# Roles: owner, RemoteAdmin, PlayersManagement, or any PlayerPermissions name.
+# Unlisted commands use default: PlayersManagement + RemoteAdmin.
+command_permissions:
+  lockdown:
+  - PlayersManagement
+  - owner
+  ban:
+  - PlayersManagement
+  whitelist:
+  - PlayersManagement
+  - owner
+
+auto_update_enabled: true
+auto_update_manifest_url: ''

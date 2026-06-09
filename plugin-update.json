@@ -1,0 +1,23 @@
+﻿{
+    "version":  "1.1.0",
+    "dll_url":  "https://raw.githubusercontent.com/XLEREX/xprot-approvedlist/main/releases/XProtection.dll",
+    "dll_sha256":  "3ab654893e81153ff4d26fe06f259e006c74ea104ce15eb23a0caf58ce204330",
+    "config_defaults_url":  "https://raw.githubusercontent.com/XLEREX/xprot-approvedlist/main/releases/config.defaults.yml",
+    "dependencies":  [
+                         {
+                             "file_name":  "LiteDB.dll",
+                             "url":  "https://raw.githubusercontent.com/XLEREX/xprot-approvedlist/main/releases/dependencies/LiteDB.dll",
+                             "sha256":  "c0058a52eb8914c98092525803d0560531f2d3bf5ab0c06c4ebd60da4518256d"
+                         },
+                         {
+                             "file_name":  "0Harmony.dll",
+                             "url":  "https://raw.githubusercontent.com/XLEREX/xprot-approvedlist/main/releases/dependencies/0Harmony.dll",
+                             "sha256":  "498ede1d20a87afaa6c7b1ed5b3beb505b01dc418b952c1be5c322204404b033"
+                         },
+                         {
+                             "file_name":  "System.Text.Json.dll",
+                             "url":  "https://raw.githubusercontent.com/XLEREX/xprot-approvedlist/main/releases/dependencies/System.Text.Json.dll",
+                             "sha256":  "86c3f263ae9b4469ab1266c80471087082447eb4a38e6b97bf5e84de15c07a1d"
+                         }
+                     ]
+}
