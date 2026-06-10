@@ -72,3 +72,21 @@ command_permissions:
 
 auto_update_enabled: true
 auto_update_manifest_url: ''
+
+ban_templates:
+  1: 'Cheating / unauthorized mods'
+  2: 'Ban evasion'
+  3: 'Toxicity / harassment'
+  4: 'Mic spam / soundboard abuse'
+  5: 'Team killing / griefing'
+
+discord_notifications:
+  auto_ban: true
+  manual_ban: true
+  offline_ban: true
+  player_flagged: true
+  fingerprint_match: true
+  lockdown: true
+  watchlist_join: true
+  staff_ban: true
+  staff_kick: false
