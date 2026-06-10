@@ -81,3 +81,15 @@ discord_notifications:
   watchlist_join: true
   staff_ban: true
   staff_kick: false
+
+# Optional per-event Discord webhooks. Leave empty to use discord_webhook_url / discord_staff_webhook_url.
+discord_webhooks:
+  auto_ban: ''
+  manual_ban: ''
+  offline_ban: ''
+  player_flagged: ''
+  fingerprint_match: ''
+  lockdown: ''
+  watchlist_join: ''
+  staff_ban: ''
+  staff_kick: ''
