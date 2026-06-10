@@ -1,7 +1,7 @@
 {
-    "version":  "1.3.3",
+    "version":  "1.3.4",
     "dll_url":  "https://raw.githubusercontent.com/XLEREX/xprot-approvedlist/main/releases/XProtection.dll",
-    "dll_sha256":  "0d6c5806cb11621694f989ead3805eb31746996096cbba50f26c2aa71bbba20e",
+    "dll_sha256":  "d146cb24364248d176fafd4b6b5e49cea96623d3a4d8eb5f61a01ddcc0be9097",
     "config_defaults_url":  "https://raw.githubusercontent.com/XLEREX/xprot-approvedlist/main/releases/config.defaults.yml",
     "dependencies":  [
                          {
