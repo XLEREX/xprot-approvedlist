@@ -1,10 +1,4 @@
-# XProtection config — copy to:
-#   LabAPI/configs/YOUR_PORT/XProtection/config.yml
-#
-# Windows: %AppData%\SCP Secret Laboratory\LabAPI\configs\PORT\XProtection\
-# Linux:   .config/SCP Secret Laboratory/LabAPI/configs/PORT/XProtection/
-#
-# NOT in the plugins folder. config.yml is auto-created on first start if missing.
+# XProtection config default
 
 debug: false
 owner_steam_ids: []
@@ -57,9 +51,6 @@ lockdown_default_minutes: 30
 lockdown_ban_duration_minutes: 30
 lockdown_notify_players: true
 
-# Per-command permissions. Owner (owner_steam_ids) always has full access.
-# Roles: owner, RemoteAdmin, PlayersManagement, or any PlayerPermissions name.
-# Unlisted commands use default: PlayersManagement + RemoteAdmin.
 command_permissions:
   lockdown:
   - PlayersManagement
