@@ -73,6 +73,13 @@ local_api_port: 7823
 local_api_secret: ''
 local_api_allowed_ips: []
 
+remote_panel_enabled: false
+remote_panel_url: ''
+remote_panel_secret: ''
+remote_panel_server_id: ''
+remote_panel_push_interval_seconds: 30
+remote_panel_poll_interval_seconds: 3
+
 ban_templates:
   1: 'Cheating / unauthorized mods'
   2: 'Ban evasion'
