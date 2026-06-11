@@ -25,6 +25,10 @@ probation_minutes: 15
 linking_window_hours: 24
 steam_recheck_hours: 24
 block_vpn: true
+vpn_action: ban
+vpn_ban_duration_minutes: 0
+vpn_ban_message: 'VPN and proxy connections are not allowed on this server. Disable your VPN and rejoin.'
+vpn_kick_message: 'VPN and proxy connections are not allowed. Disable your VPN and rejoin.'
 block_hosting: true
 block_tor: true
 block_datacenter: true
@@ -81,6 +85,7 @@ discord_notifications:
   watchlist_join: true
   staff_ban: true
   staff_kick: false
+  vpn_block: true
 
 # Optional per-event Discord webhooks. Leave empty to use discord_webhook_url / discord_staff_webhook_url.
 discord_webhooks:
@@ -93,3 +98,4 @@ discord_webhooks:
   watchlist_join: ''
   staff_ban: ''
   staff_kick: ''
+  vpn_block: ''
