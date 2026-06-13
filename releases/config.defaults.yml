@@ -6,11 +6,8 @@ server_name: SCP:SL Server
 steam_api_key: ''
 proxycheck_api_key: ''
 vpnapi_key: ''
-ban_hub_api_key: ''
-ban_hub_enabled: false
 discord_webhook_url: ''
 discord_staff_webhook_url: ''
-share_bans_to_ban_hub: false
 min_account_age_days: 30
 max_game_bans: 0
 ip_flag_threshold: 50
@@ -34,7 +31,6 @@ block_tor: true
 block_datacenter: true
 auto_ban_on_fingerprint_match: true
 auto_ban_on_hard_fingerprint: true
-auto_ban_on_ban_hub: true
 auto_ban_accounts_under7_days: true
 max_connections_per_minute: 5
 temp_block_minutes: 30
